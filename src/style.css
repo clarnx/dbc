@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1B21;
+}
+
+.main--pic {
+    /* Rectangle 90 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 317px;
+height: 317px;
+left: 116px;
+top: 44px;
+
+background: url(.png);
+border: 1px solid #000000;
+border-radius: 10px 10px 0px 0px;
+
+}
+
+.h1--main {
+    /* Otilia */
+
+position: absolute;
+width: 178.06px;
+height: 25.81px;
+left: 186px;
+top: 382px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.h3--main {
+    /* Frontend Developer */
+
+position: absolute;
+width: 178.06px;
+height: 14.19px;
+left: 186px;
+top: 414px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: #F3BF99;
+
+}
+
+.h5--main {
+    /* laurasmith.website */
+
+position: absolute;
+width: 228px;
+height: 16px;
+left: 161px;
+top: 437px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+text-align: center;
+
+color: #F5F5F5;
+
+}
+
+.h1--about {
+    /* About */
+
+position: absolute;
+width: 242.71px;
+height: 21px;
+left: 152px;
+top: 535px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #F5F5F5;
+
+}
+
+
+
+.h3--about {
+    /* I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn. */
+
+position: absolute;
+width: 247px;
+height: 61px;
+left: 152px;
+top: 561px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+color: #DCDCDC;
+
+
+}
+
+.h1--interests {
+/* Interests */
+
+position: absolute;
+width: 242.71px;
+height: 21px;
+left: 152px;
+top: 598px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #F5F5F5;
+
+
+
+
+
+
+}
+
+.h3--interests {
+
+    /* Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic. */
+
+position: absolute;
+width: 247px;
+height: 61px;
+left: 152px;
+top: 691px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+color: #DCDCDC;
+
+
+
+}
