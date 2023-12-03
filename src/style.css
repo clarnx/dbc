@@ -1,9 +1,41 @@
-* {
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    
 }
 
+.container {
+    position: relative;
+    top: 50%;
+    left: 35%;
+}
+
+
 body {
-    background-color: #1A1B21;
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;      
+        
+    }
+
+
+.business--card {
+    /* Rectangle 91 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 317px;
+height: 399px;
+left: 116px;
+top: 361px;
+
+background: #1A1B21;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .main--pic {
@@ -26,11 +58,9 @@ border-radius: 10px 10px 0px 0px;
 .h1--main {
     /* Otilia */
 
-position: absolute;
-width: 178.06px;
-height: 25.81px;
-left: 186px;
-top: 382px;
+
+height: 40.81px;
+padding-top: 2%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -46,11 +76,6 @@ color: #FFFFFF;
 .h3--main {
     /* Frontend Developer */
 
-position: absolute;
-width: 178.06px;
-height: 14.19px;
-left: 186px;
-top: 414px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -66,11 +91,6 @@ color: #F3BF99;
 .h5--main {
     /* laurasmith.website */
 
-position: absolute;
-width: 228px;
-height: 16px;
-left: 161px;
-top: 437px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -91,7 +111,8 @@ position: absolute;
 width: 242.71px;
 height: 21px;
 left: 152px;
-top: 535px;
+top: 500px; 
+/* aici am ramas, am setat top ca sa se puna cum trb */
 
 font-family: 'Inter';
 font-style: normal;
@@ -102,18 +123,19 @@ line-height: 150%;
 
 color: #F5F5F5;
 
+
 }
 
 
 
 .h3--about {
-    /* I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn. */
+    /* /* I am a frontend developer  */
 
 position: absolute;
 width: 247px;
 height: 61px;
 left: 152px;
-top: 561px;
+top: 530px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -134,7 +156,7 @@ position: absolute;
 width: 242.71px;
 height: 21px;
 left: 152px;
-top: 598px;
+top: 647px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -145,22 +167,15 @@ line-height: 150%;
 
 color: #F5F5F5;
 
-
-
-
-
-
 }
 
 .h3--interests {
-
-    /* Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic. */
 
 position: absolute;
 width: 247px;
 height: 61px;
 left: 152px;
-top: 691px;
+top: 676px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -170,7 +185,64 @@ line-height: 150%;
 /* or 15px */
 
 color: #DCDCDC;
+}
+
+.email--button {
+
+/* Icon */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 20%;
+bottom: 20%;
 
 
+}
+
+.linkedin--button {
+    /* Button */
+
+/* Auto layout */
+
+
+
+background: #5093E2;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+
+position: absolute;
+left: 50%;
+right: 10%;
+top: 20%;
+bottom: 20%;
+
+
+
+}
+
+.background--footer {
+    /* Social Icons Background */
+
+position: absolute;
+width: 317px;
+height: 64px;
+left: 116px;
+top: 760px;
+
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+
+}
+
+.github--icon {
+    /* GitHub Icon */
+
+position: absolute;
+left: 47%;
+right: 20.45%;
+top: 30.8%;
+bottom: 7.32%;
 
 }

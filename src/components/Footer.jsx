@@ -2,8 +2,13 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div>
-            
-        </div>
+        <card className="background--footer">
+            <img src='src/images/Icons-Background.png' className='background--footer' />
+            <div>
+            <a href='https://github.com/0tilia'>
+             <img src='src/images/GitHub--Icon.png'className='github--icon' />
+             </a>
+            </div>
+        </card>    
     )
 }
