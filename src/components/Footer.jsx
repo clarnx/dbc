@@ -6,7 +6,7 @@ export default function Footer() {
             <img src='src/images/Icons-Background.png' className='background--footer' />
             <div>
             <a href='https://github.com/0tilia'>
-             <img src='https://imgur.com/a/99MrT7x' className='github--icon' />
+             <img src='/src/images/GitHub--Icon.png' className='github--icon' />
              </a>
             </div>
         </card>    
